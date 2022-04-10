@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.JustFoxx.CoreKt::init"
+      "io.github.justfoxx.CoreKt::init"
     ]
   },
   "mixins": [

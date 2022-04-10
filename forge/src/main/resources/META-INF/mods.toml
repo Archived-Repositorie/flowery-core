@@ -20,9 +20,16 @@ versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.flowerycore]]]
+[[dependencies.flowerycore]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.flowery]]
+    modId="shutupexperimentalsettings"
+    mandatory=false
+    versionRange="[1.0.4,)"
+    ordering="NONE"
+    side="CLIENT"
