@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "flowerycore",
+  "version": "${version}",
+  "name": "Flowery Core",
+  "description": "Flowery Core",
+  "authors": [
+    "JustFoxx"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FLoweryStructures/core",
+    "sources":  "https://github.com/FLoweryStructures/core"
+  },
+  "license": "LGPL-2.1",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.JustFoxx.CoreKt::init"
+    ]
+  },
+  "mixins": [
+    "flowerycore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric-resource-loader-v0": "*",
+    "fabric-resource-conditions-api-v1": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.18.2"
+  },
+  "suggests": {
+    "flamingo": "*",
+    "disable_custom_worlds_advice": "*"
+  }
+}

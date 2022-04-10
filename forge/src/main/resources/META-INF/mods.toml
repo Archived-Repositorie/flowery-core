@@ -1,0 +1,28 @@
+modLoader="kotlinforforge"
+loaderVersion="[3,)"
+#issueTrackerURL = ""
+license = "LGPL-2.1"
+
+[[mods]]
+modId = "flowerycore"
+version = "${version}"
+displayName = "FloweryCore"
+authors = "JustFoxx"
+description = '''
+Flowery Core
+'''
+#logoFile = ""
+
+[[dependencies.flowerycore]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flowerycore]]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
