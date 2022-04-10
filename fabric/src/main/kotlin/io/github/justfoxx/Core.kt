@@ -1,6 +1,6 @@
 package io.github.justfoxx
 
-import Structure
+import io.github.justfoxx.Structure
 import net.fabricmc.loader.api.FabricLoader
 
 @Suppress("unused")

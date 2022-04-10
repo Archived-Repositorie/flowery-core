@@ -1,3 +1,5 @@
+package io.github.justfoxx
+
 import io.github.justfoxx.MODID
 import io.github.justfoxx.mixin.StructureFeatureAccessor
 import io.github.justfoxx.structure.WaterStructures
