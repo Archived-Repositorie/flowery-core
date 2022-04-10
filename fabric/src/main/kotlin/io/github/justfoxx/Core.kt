@@ -2,10 +2,6 @@ package io.github.justfoxx
 
 import Structure
 import net.fabricmc.loader.api.FabricLoader
-import org.slf4j.LoggerFactory
-
-val Logger = LoggerFactory.getLogger("FloweryCore")
-var MODID = "flowerycore"
 
 @Suppress("unused")
 fun init() {
