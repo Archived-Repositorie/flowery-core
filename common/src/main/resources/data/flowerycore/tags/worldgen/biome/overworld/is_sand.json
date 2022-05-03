@@ -1,9 +1,16 @@
 {
     "values": [
-        "minecraft:beach",
-        "minecraft:desert",
-        "minecraft:badlands",
-        "minecraft:wooded_badlands",
-        "minecraft:eroded_badlands"
+        {
+            "required":false,
+            "id":"#minecraft:is_beach"
+        },
+        {
+            "required": false,
+            "id": "#c:desert"
+        },
+        {
+            "required": false,
+            "id": "#forge:is_sandy"
+        }
     ]
 }
