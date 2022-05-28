@@ -6,7 +6,8 @@ val Logger = LoggerFactory.getLogger("FloweryCore")
 const val MODID = "flowerycore"
 val list = listOf("OwO", "UwU", "Flowewy!", "Magic", "Fabric > Forge", "Quilt, when?", "Fox or Umbreon")
 val supported = mapOf(
-    "croptopia" to "flowerycrop"
+    "croptopia" to "flowerycrop",
+    "promenade" to "flowerypro"
 )
 
 
