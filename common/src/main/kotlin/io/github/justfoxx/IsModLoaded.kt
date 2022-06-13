@@ -4,7 +4,7 @@ import dev.architectury.injectables.annotations.ExpectPlatform
 
 class IsModLoaded {
     @ExpectPlatform
-    fun loaded() {
+    fun loaded(mod: String): Boolean {
         throw AssertionError()
     }
 }
