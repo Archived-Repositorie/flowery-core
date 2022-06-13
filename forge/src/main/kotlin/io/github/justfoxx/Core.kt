@@ -5,7 +5,6 @@ import net.minecraftforge.fml.common.Mod
 
 @Mod(MODID)
 object Core {
-
     init {
         StructureFeature().Register()
         for(mod in supported) {

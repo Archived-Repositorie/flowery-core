@@ -4,7 +4,8 @@
   "package": "io.github.justfoxx.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "StructureFeatureAccessor"
+    "StructureFeatureAccessor",
+    "MixinJsonDataLoader"
   ],
   "client": [],
   "injectors": {

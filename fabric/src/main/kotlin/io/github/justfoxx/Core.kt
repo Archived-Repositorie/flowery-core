@@ -1,7 +1,10 @@
 package io.github.justfoxx
 
-import io.github.justfoxx.Structure
 import net.fabricmc.loader.api.FabricLoader
+
+fun isModLoaded(mod: String): Boolean {
+    return FabricLoader.getInstance().isModLoaded(mod)
+}
 
 @Suppress("unused")
 fun init() {
