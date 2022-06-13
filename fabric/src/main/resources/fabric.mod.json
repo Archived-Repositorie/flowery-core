@@ -18,9 +18,7 @@
       "io.github.justfoxx.CoreKt::init"
     ]
   },
-  "mixins": [
-    "flowerycore.mixins.json"
-  ],
+  "mixins": [],
   "depends": {
     "fabricloader": ">=0.8.7",
     "fabric-resource-loader-v0": "*",
@@ -28,7 +26,6 @@
     "minecraft": "1.18.2"
   },
   "suggests": {
-    "flamingo": "*",
-    "disable_custom_worlds_advice": "*"
+    "flamingo": "*"
   }
 }
