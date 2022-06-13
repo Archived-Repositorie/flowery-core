@@ -1,5 +1,6 @@
 package io.github.justfoxx
 
+import dev.architectury.injectables.annotations.ExpectPlatform
 import org.slf4j.LoggerFactory
 
 val Logger = LoggerFactory.getLogger("FloweryCore")
@@ -9,5 +10,6 @@ val supported = mapOf(
     "croptopia" to "flowerycrop",
     "promenade" to "flowerypro"
 )
+
 
 
