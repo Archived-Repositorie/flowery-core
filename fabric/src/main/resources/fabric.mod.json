@@ -15,20 +15,22 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.justfoxx.CoreKt::init"
+      {
+        "adapter": "kotlin",
+        "value": "io.github.justfoxx.Core"
+      }
     ]
   },
-  "mixins": [
-    "flowerycore.mixins.json"
-  ],
+  "mixins": ["flowerycore.mixins.json"],
   "depends": {
     "fabricloader": ">=0.8.7",
     "fabric-resource-loader-v0": "*",
+    "fabric-registry-sync-v0": "*",
     "fabric-language-kotlin": "*",
+    "fabric-convention-tags-v1": "*",
     "minecraft": "1.18.2"
   },
   "suggests": {
-    "flamingo": "*",
-    "disable_custom_worlds_advice": "*"
+    "fabric": "*"
   }
 }

@@ -30,8 +30,8 @@ dependencies {
 
     implementation("thedarkcolour:kotlinforforge:${rootProject.property("kotlin_for_forge")}")
     // Without the manually specified versions, Loom's generateDLIConfig fails??
-    forgeRuntimeLibrary("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0")
-    forgeRuntimeLibrary("org.jetbrains.kotlin:kotlin-reflect:1.6.0")
+    forgeRuntimeLibrary("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0")
+    forgeRuntimeLibrary("org.jetbrains.kotlin:kotlin-reflect:1.7.0")
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 }

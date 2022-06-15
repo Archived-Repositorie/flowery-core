@@ -6,12 +6,12 @@ import io.github.justfoxx.structure.LandStructure
 import io.github.justfoxx.structure.WaterStructure
 import net.minecraft.world.gen.GenerationStep
 
-class Structure {
+class Structure() {
     val WATER_STRUCTURE = WaterStructure()
     val AIR_STRUCTURE = AirStructure()
     val LAND_STRUCTUE = LandStructure()
 
-    fun registerStructureFeatures() {
+    init {
         StructureFeatureAccessor.callRegister("${MODID}:water", WATER_STRUCTURE, GenerationStep.Feature.SURFACE_STRUCTURES)
         StructureFeatureAccessor.callRegister("${MODID}:air", AIR_STRUCTURE, GenerationStep.Feature.SURFACE_STRUCTURES)
         StructureFeatureAccessor.callRegister("${MODID}:land", LAND_STRUCTUE, GenerationStep.Feature.SURFACE_STRUCTURES)

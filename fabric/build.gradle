@@ -20,6 +20,7 @@ configurations {
 
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
+    include fabricApi.module("fabric-registry-sync-v0", project.fabric_version)
     include fabricApi.module("fabric-resource-loader-v0", project.fabric_version)
     include fabricApi.module("fabric-convention-tags-v1", project.fabric_version)
 
